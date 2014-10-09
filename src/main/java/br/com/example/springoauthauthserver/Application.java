@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = "br.com.example.springoauthauthserver")
+@ComponentScan("br.com.example.springoauthauthserver")
 @EnableAutoConfiguration
 public class Application {
 
